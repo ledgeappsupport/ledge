@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Ledge</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --border: rgba(0, 0, 0, 0.08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --card: #1c1c1e;
+        --text: #f5f5f7;
+        --muted: #98989d;
+        --border: rgba(255, 255, 255, 0.1);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+    }
+    h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.02em; }
+    .date { font-size: 13px; color: var(--muted); margin-bottom: 24px; display: block; }
+    h2 { font-size: 18px; margin: 24px 0 8px; }
+    p, li { color: var(--muted); font-size: 15px; }
+    a { color: var(--text); }
+    .back { display: inline-block; margin-bottom: 16px; font-size: 14px; text-decoration: none; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <a class="back" href="./index.html">← Back to Ledge</a>
+    <article class="card">
+      <h1>Privacy Policy</h1>
+      <span class="date">Effective Date: November 25, 2026</span>
+
+      <p>
+        Ledge is designed with privacy as a core principle. We believe your personal and business financial records belong strictly to you.
+      </p>
+
+      <h2>1. Data We Collect</h2>
+      <p>
+        <strong>We do not collect, store, sell, or share your financial data on external servers.</strong>
+        All ledger books, categories, transactions, and notes you enter into Ledge are stored locally on your device using Apple's SwiftData framework.
+      </p>
+
+      <h2>2. Tracking &amp; Analytics</h2>
+      <p>
+        Ledge does not use third-party advertising SDKs, behavioral trackers, or cross-app tracking.
+      </p>
+
+      <h2>3. Face ID / Touch ID Security</h2>
+      <p>
+        If you enable App Lock, authentication is handled entirely by Apple's LocalAuthentication framework on your device. Ledge never accesses or stores your biometric data or device passcode.
+      </p>
+
+      <h2>4. Subscriptions &amp; Payments</h2>
+      <p>
+        Optional Ledge Pro subscriptions are processed securely by Apple through the App Store (StoreKit). We do not receive or store your credit card or payment details.
+      </p>
+
+      <h2>5. CSV Exports</h2>
+      <p>
+        When you choose to export your ledger to a CSV file, the file is generated locally on your device and shared only to the destination you explicitly select using the iOS Share Sheet.
+      </p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>
+        Ledge does not knowingly collect personal information from anyone, including children under 13.
+      </p>
+
+      <h2>7. Contact Us</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us at
+        <!-- Replace with your real support Gmail before publishing -->
+        <a href="mailto:ledgeapp.support@gmail.com">ledgeapp.support@gmail.com</a>.
+      </p>
+    </article>
+  </main>
+</body>
+</html>

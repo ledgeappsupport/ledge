@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ledge — Calm, Private iOS Cashflow</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --border: rgba(0, 0, 0, 0.08);
+      --accent: #1d1d1f;
+      --accent-fg: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --card: #1c1c1e;
+        --text: #f5f5f7;
+        --muted: #98989d;
+        --border: rgba(255, 255, 255, 0.1);
+        --accent: #f5f5f7;
+        --accent-fg: #1d1d1f;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 20px 80px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 40px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin: 0 0 14px;
+    }
+    .lead {
+      font-size: 18px;
+      color: var(--muted);
+      margin: 0 0 32px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 0 0 12px;
+    }
+    p { margin: 0 0 12px; color: var(--muted); }
+    p:last-child { margin-bottom: 0; }
+    ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    li { margin-bottom: 8px; }
+    a.button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 20px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: var(--accent-fg);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    footer {
+      margin-top: 36px;
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    footer a { color: var(--text); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="badge">Ledge for iOS</span>
+    <h1>Calm, private cashflow.</h1>
+    <p class="lead">
+      Record daily income and expenses in seconds. Built natively for iPhone with zero ads,
+      no mandatory account sign-up, and separate ledgers for personal &amp; business finances.
+    </p>
+
+    <section class="card">
+      <h2>Support &amp; Feedback</h2>
+      <p>
+        Have a question, found a bug, or want to suggest a feature? Send us an email and we will get back to you as soon as possible.
+      </p>
+      <!-- Replace with your real support Gmail before publishing -->
+      <a class="button" href="mailto:ledgeapp.support@gmail.com">Contact Support</a>
+    </section>
+
+    <section class="card">
+      <h2>Frequently Asked Questions</h2>
+      <ul>
+        <li><strong>Where is my financial data stored?</strong> Your transactions stay privately on your iPhone. Ledge never sells or tracks your financial records.</li>
+        <li><strong>How do I restore my Ledge Pro subscription?</strong> Open Ledge → Settings → Restore Purchases while signed into the same Apple ID.</li>
+        <li><strong>How do I cancel or manage my subscription?</strong> Open iPhone Settings → [Your Name] → Subscriptions → Ledge, or tap Manage Subscription inside Ledge Settings.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple EULA)</a>
+      <span>© 2026 Ledge</span>
+    </footer>
+  </main>
+</body>
+</html>
